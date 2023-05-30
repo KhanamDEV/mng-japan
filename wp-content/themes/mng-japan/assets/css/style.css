@@ -1,0 +1,137 @@
+@font-face {
+    font-family: Yumin;
+    src: url('./fonts/yumin.ttf');
+}
+
+@font-face {
+    font-family: NotoSans;
+    src: url('./fonts/NotoSansJP-Regular.otf') format("truetype");
+}
+
+@font-face {
+    font-family: NotoSansBold;
+    src: url('./fonts/NotoSansJP-Bold.otf') format("truetype");
+}
+root{
+    --background-main: #AE928A;
+    --color-title: #3C3C3C;
+    --color-text: #777777;
+    --margin-top-about: -60px;
+    --margin-index-mobile: 70px;
+    --color-green: #159DD9 ;
+}
+/* defautl */
+*{margin: 0; padding: 0;}
+*,*::before, *::after{box-sizing: border-box;}
+
+.table td, .table th{vertical-align: middle}
+p{margin-bottom: 0;}
+a{color:var(--color-text); transition: all .4s;}
+a:hover{text-decoration: none; color: var(--background-main); transition: all .4s;}
+ul{list-style: none;margin-bottom: 0}
+img{max-width: 100%; width: 100%}
+body{
+    /* font-size: 14px; */
+    font-size: 16px;
+    font-family: "NotoSans";
+    /* color: #5E5E5E; */
+    color: #5e5e5e;
+    /*background-color: #f7f7f7;*/
+    scroll-behavior: smooth;
+}
+.line{width: 80%; height: 5px; background-color: #159DD9; margin: 40px auto;}
+h1,h2,h3,h4,h5{font-family: NotoSansBold}
+.padding-content{padding: 40px 0}
+.title{text-align: center; font-weight: bold; font-size: 30px; margin-bottom: 35px}
+.sub-title{text-align: center; font-size: 16px; line-height: 30px}
+.cursor-pointer{cursor: pointer}
+
+.table-info tr td:last-child{font-family: NotoSansBold; }
+.table-info tr td{padding: 10px 0}
+
+img.img-banner{max-height: 85vh; object-fit: cover}
+p.info{line-height: 35px}
+.font-bold{font-family: NotoSansBold}
+
+
+header#header .top{text-align: center}
+header#header  img{max-width: 200px}
+#nav-header{background-color: #159DD9; position: sticky; top: 0; z-index: 9999}
+#nav-header .menu-header{display: flex; justify-content: center}
+#nav-header .menu-header li a{padding: 20px 20px; color: white; display: block; position: relative}
+#nav-header .menu-header li a::before{content: ""; position: absolute; left: 50%; width: 0; height: 5px; background-color: white; bottom: 0}
+#nav-header .menu-header li a::after{content: ""; position: absolute; right: 50%; width: 0; height: 5px; background-color: white; bottom: 0}
+#nav-header .menu-header li a:hover{background-color: #0f7bab}
+#nav-header .menu-header li a:hover::before{width: 50%; transition: all 0.5s; }
+#nav-header .menu-header li a:hover::after{width: 50%; transition: all 0.5s; }
+
+ .group-block-content .block-content{text-align: center; background-color: #159DD9; color: white; height: 120px; font-size: 22px; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px}
+ .group-block-content .block-content:hover{background-color: #0f7bab}
+
+section#company .group-flyers .flyers{display: flex; align-items: center}
+section#company .group-flyers .flyers:nth-child(n+1){margin-bottom: 30px}
+section#company .group-flyers .block{max-width: 120px; display: block; width: 120px; margin-right: 100px}
+section#company .group-flyers .rectangle{background-color: #159DD9; display: flex; color: white; height: 60px; flex-direction: column; align-items: center; justify-content: center }
+section#company .group-flyers .rectangle::before{content: ""; position: absolute; left: 100%;  border-top: solid 30px transparent; width: 40px;
+    height: 60px;
+    border-left: solid 50px #159DD9;
+    border-bottom: solid 30px transparent;
+    border-top: solid 30px transparent;
+}
+section#company .group-flyers .flyers .content{font-family: NotoSansBold}
+section#greeting .signature{text-align: end; margin-top: 30px}
+section#greeting .signature img{max-width: 600px}
+
+section#business .layout{display: flex}
+section#business .layout .start, section#business .layout .end{width: 20%;}
+section#business .layout .center{width: 60%}
+section#business .layout .start{display: flex; flex-direction: column; justify-content: space-between}
+section#business .layout .end{display: flex; flex-direction: column; justify-content: end}
+section#flow-diagram .col-refund{position: relative; font-size: 33px; font-family: NotoSansBold; color: #aa5500}
+section#flow-diagram .col-refund span{position: absolute; top: 5px; left: 5px; font-size: 14px; font-family: NotoSans; color: black}
+
+section#qa .qa-image span{font-size: 40px; height: 70px; width: 70px; display: flex; justify-content: center; align-items: center; border: 4px solid #159DD9; font-family: NotoSansBold; color: red; border-radius: 50%; position: absolute; top: -35px; left: calc(50% - 35px); background-color: white}
+section#qa #accordion .faqHeader{ color: #159DD9; display: inline-block; margin: 30px 0}
+section#qa #accordion .panel .panel-title{font-size: 16px}
+section#qa .accordion .card-header button{color: #5e5e5e}
+section#qa .accordion .card-header button:focus{outline: none; box-shadow: none}
+
+section#contact .form-contact{max-width: 650px; margin: 30px auto;}
+section#contact .form-contact .btn{background-color: #159DD9; color: white; width: 100%; margin-top: 20px}
+
+footer{background-color: black; color: white; padding: 30px 0; text-align: center }
+footer .menu-footer{display: flex; justify-content: center; align-items: center}
+footer .menu-footer li{padding: 0 25px ; position: relative}
+footer .menu-footer li:nth-child(n+1):after{content: "/"; position: absolute; right: 0; top: 0}
+footer .menu-footer li:last-child:after{content: ""}
+footer .copyright{margin-top: 20px; font-size: 14px}
+#back-to-top {
+    position: fixed;
+    z-index: 1000;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+#back-to-top a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #1997d2;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    -webkit-transition: 0.2s all linear;
+    -moz-transition: 0.2s all linear;
+    -o-transition: 0.2s all linear;
+    transition: 0.2s all linear;
+    color: #fff;
+    line-height: 1.8;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#back-to-top a:hover {
+    background-color: #222222;
+}
+
+
