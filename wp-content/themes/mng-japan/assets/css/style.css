@@ -39,12 +39,14 @@ body{
     /*background-color: #f7f7f7;*/
     scroll-behavior: smooth;
 }
-.line{width: 80%; height: 5px; background-color: #159DD9; margin: 40px auto;}
+.line{width: 100%; height: 5px; background-color: #159DD9; margin: 40px auto;}
 h1,h2,h3,h4,h5{font-family: NotoSansBold}
 .padding-content{padding: 40px 0}
 .title{text-align: center; font-weight: bold; font-size: 30px; margin-bottom: 35px}
 .sub-title{text-align: center; font-size: 16px; line-height: 30px}
 .cursor-pointer{cursor: pointer}
+.cursor-pointer a{width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 22px}
+.font-large{font-size: 34px !important;}
 
 .table-info tr td:last-child{font-family: NotoSansBold; }
 .table-info tr td{padding: 10px 0}
@@ -52,21 +54,41 @@ h1,h2,h3,h4,h5{font-family: NotoSansBold}
 img.img-banner{max-height: 85vh; object-fit: cover}
 p.info{line-height: 35px}
 .font-bold{font-family: NotoSansBold}
+.item-quick-contact{display: flex; justify-content: space-around; width: 80%; margin:  0 auto}
 
 
-header#header .top{text-align: center}
-header#header  img{max-width: 200px}
-#nav-header{background-color: #159DD9; position: sticky; top: 0; z-index: 9999}
-#nav-header .menu-header{display: flex; justify-content: center}
-#nav-header .menu-header li a{padding: 20px 20px; color: white; display: block; position: relative}
-#nav-header .menu-header li a::before{content: ""; position: absolute; left: 50%; width: 0; height: 5px; background-color: white; bottom: 0}
-#nav-header .menu-header li a::after{content: ""; position: absolute; right: 50%; width: 0; height: 5px; background-color: white; bottom: 0}
-#nav-header .menu-header li a:hover{background-color: #0f7bab}
-#nav-header .menu-header li a:hover::before{width: 50%; transition: all 0.5s; }
-#nav-header .menu-header li a:hover::after{width: 50%; transition: all 0.5s; }
 
- .group-block-content .block-content{text-align: center; background-color: #159DD9; color: white; height: 120px; font-size: 22px; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px}
- .group-block-content .block-content:hover{background-color: #0f7bab}
+header#header{padding: 20px 0; position: sticky; top: 0; left: 0; background-color: white; z-index: 99; -webkit-box-shadow: 0px 6px 24px -6px rgba(66,72,77,1);
+    -moz-box-shadow: 0px 6px 24px -6px rgba(66,72,77,1);
+    box-shadow: 0px 6px 24px -6px rgba(66,72,77,1);}
+header#header .container{display: flex; align-items: center; justify-content: center}
+header#header .logo{max-width: 250px; margin-right: 20px}
+header#header .right .logo-text{width: fit-content; }
+header#header .right .logo-text img{height: 60px}
+header#header .right .menu-header{display: flex; justify-content: end; margin-bottom: 10px}
+header#header .right .menu-header li a{border: 1px solid #159DD9; border-radius: 30px; padding: 10px; display: block; transition: all 0.5s}
+header#header .right .menu-header li a:hover{color: #159DD9; font-family: NotoSansBold; }
+header#header .right .menu-header li:nth-child(n+2){margin-left: 20px}
+header#header .mob{display: none}
+
+
+ .group-block-content .block-content a{ position: relative; overflow: hidden; text-align: center; background-color: #159DD9; color: white; height: 120px; font-size: 22px; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px}
+.group-block-content .block-content a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #E52138;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    box-sizing: border-box;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+ .group-block-content .block-content a:hover{transition: all .4s; color: white !important;}
+.group-block-content .block-content a:hover:before{transform: translateX(0)}
 
 section#company .group-flyers .flyers{display: flex; align-items: center}
 section#company .group-flyers .flyers:nth-child(n+1){margin-bottom: 30px}
@@ -90,14 +112,54 @@ section#business .layout .end{display: flex; flex-direction: column; justify-con
 section#flow-diagram .col-refund{position: relative; font-size: 33px; font-family: NotoSansBold; color: #aa5500}
 section#flow-diagram .col-refund span{position: absolute; top: 5px; left: 5px; font-size: 14px; font-family: NotoSans; color: black}
 
-section#qa .qa-image span{font-size: 40px; height: 70px; width: 70px; display: flex; justify-content: center; align-items: center; border: 4px solid #159DD9; font-family: NotoSansBold; color: red; border-radius: 50%; position: absolute; top: -35px; left: calc(50% - 35px); background-color: white}
-section#qa #accordion .faqHeader{ color: #159DD9; display: inline-block; margin: 30px 0}
-section#qa #accordion .panel .panel-title{font-size: 16px}
-section#qa .accordion .card-header button{color: #5e5e5e}
-section#qa .accordion .card-header button:focus{outline: none; box-shadow: none}
+section#qa .group-qa{margin-bottom: 120px}
+section#qa .group-qa .item-qa:nth-child(n+2){margin-top: 20px}
+section#qa .group-qa .item-qa p{text-align: center ; background-image: linear-gradient(to right,#159dd9ad, #159dd9ba  ) ; color: white; padding: 15px 0; border-radius: 15px; margin-bottom: 20px }
+section#qa .group-qa .item-qa p.answer{padding:15px;text-align: left ;width: 95%; margin: 0 auto; background-color: #159dd994; background-image: none}
+section#qa .row .col-qa:first-child{padding-right: 30px}
+section#qa .row .col-qa:last-child{padding-left: 30px}
+section#qa .group-qa .item-qa p.question:before{
+    content: attr(data-order);
+    font-size: 12px;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    left: -20px;
+    border-radius: 50%;
+    top: calc(50% - 20px);
+    background-color: white;
+    border: 1px solid #E52138;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5e5e5e;
+}
+section#qa .group-qa .item-qa p.question.first:after{
+    content: attr(data-group);
+    position: absolute;
+    left: 20px;
+    top: -25px;
+    min-width: 300px;
+    background-color: #9ed6ef;
+    padding: 7px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
 
 section#contact .form-contact{max-width: 650px; margin: 30px auto;}
 section#contact .form-contact .btn{background-color: #159DD9; color: white; width: 100%; margin-top: 20px}
+
+.name{position: relative; display: inline-block}
+.name::before{
+    content: attr(data-subtitle);
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    bottom: 100%;
+}
 
 footer{background-color: black; color: white; padding: 30px 0; text-align: center }
 footer .menu-footer{display: flex; justify-content: center; align-items: center}

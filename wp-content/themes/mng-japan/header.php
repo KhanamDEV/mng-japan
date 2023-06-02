@@ -25,24 +25,59 @@
 </head>
 <body>
 <header id="header" >
-    <div class="top">
-        <a href="<?php echo home_url(); ?>">
-            <img src="<?php asset('images/logo0208@2x.png'); ?>" alt="">
-        </a>
+    <div class="container pc">
+        <div class="logo">
+            <a href="<?php echo home_url(); ?>" class="d-block">
+                <img src="<?php asset('images/logo.png'); ?>" alt="">
+            </a>
+        </div>
+        <div class="right">
+            <nav id="nav-header" class="nav-desk">
+
+            <?php
+                wp_nav_menu(array(
+                    'theme_location' => 'header-nav',
+                    'container' => 'ul',
+                    'container_class' => '',
+                    'menu_class' => 'box-header menu-header'
+                ));
+                ?>
+            </nav>
+            <div class="logo-text">
+                <img src="<?php asset('images/logo_text.png'); ?>" alt="">
+            </div>
+        </div>
     </div>
+
+    <div class="container mob">
+        <div class="logo">
+            <a href="<?php echo home_url(); ?>" class="d-block">
+                <img src="<?php asset('images/logo0208@2x.png'); ?>" alt="">
+            </a>
+        </div>
+        <div class="right">
+
+            <div class="logo-text">
+                <i class="fa fa-bars icon-open-menu-mobile" aria-hidden="true"></i>
+            </div>
+        </div>
+        <nav id="nav-header" class="nav-desk">
+            <i class="fa text-white fa-times icon-close-menu-mobile" aria-hidden="true"></i>
+
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'header-nav',
+                'container' => 'ul',
+                'container_class' => '',
+                'menu_class' => 'box-header menu-header'
+            ));
+            ?>
+        </nav>
+
+    </div>
+
 
 </header>
-<nav id="nav-header" class="nav-desk">
-    <div class="container">
-        <?php
-        wp_nav_menu(array(
-            'theme_location' => 'header-nav',
-            'container' => 'ul',
-            'container_class' => '',
-            'menu_class' => 'box-header menu-header'
-        ));
-        ?>
-    </div>
 
-</nav>
+
 

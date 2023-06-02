@@ -1,0 +1,47 @@
+@media (max-width: 475px) {
+    .font-large{font-size: 26px !important;}
+    header#header .pc {
+        display: none
+    }
+    .title-second{font-size: 18px !important;}
+    header#header .mob {display: flex;align-items: center; justify-content: space-between}
+    header#header .mob .icon-open-menu-mobile{font-size: 22px}
+    header#header .mob #nav-header {
+        position: fixed;
+        background-color: #159DD9;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        padding: 40px 20px;
+        width: 50%;
+        transition: all .6s;
+    }
+    header#header .mob #nav-header.open{right: 0}
+    header#header .mob #nav-header .icon-close-menu-mobile{position:  absolute; top: 10px; right: 10px; font-size: 22px}
+    header#header .mob #nav-header .menu-header li{padding-bottom: 20px; margin-bottom: 20px; border-bottom: 2px solid white}
+    header#header .mob #nav-header .menu-header li a{color: white;}
+
+    .group-block-content .block-content{margin-bottom: 20px}
+    section#flow-diagram .col-refund span{font-size: 10px}
+    section#qa .row .col-qa{padding-right: 15px !important; padding-left: 15px !important;}
+    section#qa .row{margin-left: 5px; margin-right: 5px}
+    section#qa .group-qa .item-qa p.question.first:after{min-width: 200px}
+    section#qa .group-qa{margin-bottom: 40px}
+    .item-quick-contact{flex-direction: column; width: 100%; justify-content: center}
+    .item-quick-contact .qr{text-align: center}
+    .table-info{width: 100%}
+    .swap-content span:first-child{display: none}
+    .swap-content span:last-child{display: block !important;}
+    /*.table-info tr{display: flex; flex-direction: column}*/
+    /*.table-info tr td{width: 100%}*/
+    footer .menu-footer{flex-direction: column; }
+    footer .menu-footer li:nth-child(n+1):after{content: ""}
+    section#company .group-flyers{justify-content: space-between}
+    section#company .group-flyers .rectangle::before{display: none}
+    section#company .group-flyers .block{margin-right: 0; background-color: white; width: 30%}
+    section#company .group-flyers .content{width: 67%}
+    section#company .group-flyers .content div{display: block !important; padding-top: 20px}
+    section#company .group-flyers .rectangle{background-color: white; justify-content: center; color:#5E5E5E; align-items: start }
+    /*section#company .group-flyers .flyers{flex-direction: column; align-items: start}*/
+
+}

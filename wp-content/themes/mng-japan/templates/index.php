@@ -21,23 +21,23 @@
             <div class="group-block-content ">
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="block-content">
-                            <p>入職までの費用は 完全無料</p>
+                        <div class="block-content cursor-pointer">
+                            <a href="<?php echo get_permalink('24')?>"><span class="position-relative">入職までの費用は 完全無料</span></a>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="block-content">
-                            <p>面接回数は 無制限</p>
+                        <div class="block-content cursor-pointer">
+                            <a href="<?php echo get_permalink('24')?>"><span class="position-relative">面接回数は 無制限</span></a>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="block-content">
-                            <p>返金規定あり</p>
+                        <div class="block-content cursor-pointer">
+                            <a href="<?php echo get_permalink('24')?>"><span class="position-relative">返金規定あり</span></a>
                         </div>
                     </div>
                 </div>
                 <div class="block-content mt-4 cursor-pointer">
-                    <a href="">相談・お問い合わせ・資料請求はこちら →</a>
+                    <a class="font-large" href="<?php echo get_permalink('29')?>"><span class="position-relative">相談・お問い合わせ・資料請求はこちら →</span></a>
                 </div>
             </div>
         </div>

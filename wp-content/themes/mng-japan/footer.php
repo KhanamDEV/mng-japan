@@ -11,7 +11,7 @@
         <p class="copyright "> Copyright ©<?php echo date('Y') ?> MNG-JAPAN . All rights reserved </p>
     </div>
 </footer>
-<div id="back-to-top" style="display: block;">
+<div id="back-to-top" >
     <a href="javascript:void(0)"><i class="fa fa-angle-up"></i></a>
 </div>
 </body>
