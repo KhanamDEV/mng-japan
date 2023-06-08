@@ -5,6 +5,8 @@
     .font-large{font-size: 26px !important;}
     .title{font-size: 30px !important;}
     .sub-title{font-size: 16px !important; line-height: 30px !important;}
+    img.img-banner{object-fit: cover !important;}
+
     header#header .pc {
         display: none
     }
@@ -25,7 +27,6 @@
     header#header .mob #nav-header .icon-close-menu-mobile{position:  absolute; top: 10px; right: 10px; font-size: 22px}
     header#header .mob #nav-header .menu-header li{padding-bottom: 20px; margin-bottom: 20px; border-bottom: 2px solid white}
     header#header .mob #nav-header .menu-header li a{color: white;}
-
     .group-block-content .block-content{margin-bottom: 20px}
     section#flow-diagram .col-refund span{font-size: 10px}
     section#qa .row .col-qa{padding-right: 15px !important; padding-left: 15px !important;}
