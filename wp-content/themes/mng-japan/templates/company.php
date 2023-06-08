@@ -44,7 +44,7 @@
                         </div>
                     </div>
                     <div class="content">
-                        卡和4年(2022年)12月12日
+                        平和4年(2022年)12月12日
                     </div>
                 </div>
                 <div class="flyers">
