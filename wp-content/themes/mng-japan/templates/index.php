@@ -14,10 +14,10 @@
     </section>
     <section id="recruitment" class="padding-content bg-white">
         <div class="container">
-            <h2 class="title">人材紹介手数料は30万から</h2>
-            <p class="sub-title">お問い合わせ・ご依頼いただいた後、<br>最短1週間で面談可能</p>
+            <h2 class="title" style="font-size: 40px; color: #E52138">人材紹介手数料は30万から</h2>
+            <p class="sub-title" style="font-size: 35px; color: #159DD9; line-height: 35px; line-height: 50px">お問い合わせ・ご依頼いただいた後、<br>最短1週間で面談可能</p>
             <div class="line"></div>
-            <h2 class="title">3つの特徴</h2>
+            <h2 class="title" style="font-size: 40px">3つの特徴</h2>
             <div class="group-block-content ">
                 <div class="row">
                     <div class="col-md-4">

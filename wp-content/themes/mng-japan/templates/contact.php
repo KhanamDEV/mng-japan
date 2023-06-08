@@ -23,32 +23,33 @@
                 <br>
                 下記のお問合せ先まで、ご質問、ご相談、資料ご請求などお送りください
             </p>
-            <form action="" class="form-contact">
+            <form action="" class="form-contact" id="form-contact">
                 <div class="form-group">
                     <label for="">法人様名※</label>
-                    <input type="text" class="form-control">
+                    <input required id="company_name" type="text" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="">ご担当者様名※</label>
-                    <input type="text" class="form-control">
+                    <input required id="person_charge" type="text" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="">お電話番号※</label>
-                    <input type="text" class="form-control">
+                    <input required id="phone_number" type="text" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="">メール※</label>
-                    <input type="text" class="form-control">
+                    <input required id="email" type="email" class="form-control">
                 </div>
                 <div class="form-group">
                     <label for="">問い合わせ内容※</label>
-                    <textarea name="" id="" cols="30" rows="5" class="form-control"></textarea>
+                    <textarea required name="" id="content" cols="30" rows="5" class="form-control"></textarea>
                 </div>
-                <button class="btn">送信</button>
+                <button type="submit" class="btn">送信</button>
             </form>
         </div>
     </section>
 
 </main>
+
 <?php get_footer(); ?>
 

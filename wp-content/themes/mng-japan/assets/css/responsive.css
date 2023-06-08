@@ -1,5 +1,10 @@
 @media (max-width: 475px) {
+    section#flow-diagram .flow .content p{font-size: 12px; line-height: 27px}
+    section#flow-diagram .flow .text-fixed{width: 30px; margin-right: 20px}
+    section#flow-diagram .flow .content p.info{font-size: 12px; margin-top: 25px}
     .font-large{font-size: 26px !important;}
+    .title{font-size: 30px !important;}
+    .sub-title{font-size: 16px !important; line-height: 30px !important;}
     header#header .pc {
         display: none
     }
@@ -43,5 +48,9 @@
     section#company .group-flyers .content div{display: block !important; padding-top: 20px}
     section#company .group-flyers .rectangle{background-color: white; justify-content: center; color:#5E5E5E; align-items: start }
     /*section#company .group-flyers .flyers{flex-direction: column; align-items: start}*/
-
+    footer .menu-footer{display: flex; justify-content: center; align-items: center}
+    footer .menu-footer li{padding: 0 25px ; position: relative}
+    footer .menu-footer li:last-child:after{content: ""}
+    footer .menu-footer li a{border: none; padding: 0}
+    footer .menu-footer li:nth-child(n+2){margin-left: 0}
 }

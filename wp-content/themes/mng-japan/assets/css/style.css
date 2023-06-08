@@ -112,6 +112,12 @@ section#business .layout .end{display: flex; flex-direction: column; justify-con
 section#flow-diagram .col-refund{position: relative; font-size: 33px; font-family: NotoSansBold; color: #aa5500}
 section#flow-diagram .col-refund span{position: absolute; top: 5px; left: 5px; font-size: 14px; font-family: NotoSans; color: black}
 
+section#flow-diagram .flow .text-fixed{width: 110px; margin-right: 40px}
+section#flow-diagram .flow{display: flex; align-items: center}
+section#flow-diagram .flow .content .flow1{max-width: 700px; margin: 0 auto; display: block}
+section#flow-diagram .flow .content p{font-size: 26px; line-height: 45px}
+section#flow-diagram .flow .content p.info{margin-left: 50px; font-size: 18px; margin-top: 50px}
+
 section#qa .group-qa{margin-bottom: 120px}
 section#qa .group-qa .item-qa:nth-child(n+2){margin-top: 20px}
 section#qa .group-qa .item-qa p{text-align: center ; background-image: linear-gradient(to right,#159dd9ad, #159dd9ba  ) ; color: white; padding: 15px 0; border-radius: 15px; margin-bottom: 20px }
@@ -162,11 +168,14 @@ section#contact .form-contact .btn{background-color: #159DD9; color: white; widt
 }
 
 footer{background-color: black; color: white; padding: 30px 0; text-align: center }
-footer .menu-footer{display: flex; justify-content: center; align-items: center}
-footer .menu-footer li{padding: 0 25px ; position: relative}
-footer .menu-footer li:nth-child(n+1):after{content: "/"; position: absolute; right: 0; top: 0}
-footer .menu-footer li:last-child:after{content: ""}
+
 footer .copyright{margin-top: 20px; font-size: 14px}
+
+footer .menu-footer{display: flex; justify-content: center; margin-bottom: 10px}
+footer .menu-footer li a{border: 1px solid #159DD9; border-radius: 30px; padding: 10px; display: block; transition: all 0.5s}
+footer .menu-footer li a:hover{color: #159DD9; font-family: NotoSansBold; }
+footer .menu-footer li:nth-child(n+2){margin-left: 20px}
+
 #back-to-top {
     position: fixed;
     z-index: 1000;

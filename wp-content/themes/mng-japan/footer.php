@@ -18,6 +18,35 @@
 
 <script src="<?php asset('js/jquery-3.4.1.min.js'); ?>"></script>
 <script src="<?php asset('js/bootstrap.min.js'); ?>"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="<?php asset('js/main.js'); ?>?date=<?=date('YmdGis');?>" type="text/javascript"></script>
+<script>
+    $(function (){
+        $('#form-contact').submit(function(){
+            Swal.showLoading();
+            $.ajax({
+                method : "POST",
+                url : '<?php echo admin_url('admin-ajax.php');?>', //Đường dẫn chứa hàm xử lý dữ liệu. Mặc định của WP như vậy
+                data : {
+                    action: "confirm_user_contact",
+                    company_name: $("#company_name").val(),
+                    person_charge: $("#person_charge").val(),
+                    phone_number: $("#phone_number").val(),
+                    email: $("#email").val(),
+                    content: $("#content").val(),
+                },
+
+                success: function(response) {
+                    console.log(response);
+                },
+                error: function( jqXHR, textStatus, errorThrown ){
+                    //Làm gì đó khi có lỗi xảy ra
+                    console.log( 'The following error occured: ' + textStatus, errorThrown );
+                }
+            })
+            return false;
+        })
+    });
+</script>
 <?php //wp_footer(); ?>
 </html>
