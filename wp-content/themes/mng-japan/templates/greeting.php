@@ -9,8 +9,8 @@
 ?>
 <?php get_header(); ?>
 <main id="main">
-    <section id="banner-home">
-        <img src="<?php asset('images/greeting.jpg'); ?>" class="img-banner" alt="">
+    <section id="banner-home" style="">
+        <img style="object-fit: none" src="<?php asset('images/greeting.png'); ?>" class="img-banner" alt="">
     </section>
     <section id="greeting" class="padding-content bg-white">
         <div class="container">

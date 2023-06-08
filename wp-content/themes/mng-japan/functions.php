@@ -130,7 +130,7 @@ register_nav_menus([
          $mail->SMTPSecure = 'tsl';
          $mail->Port = 587;
          $mail->setFrom('no-reply@mngjapan.com', 'MNG 人材開発株式会社');
-         $mail->addAddress('khanamdev@gmail.com');
+         $mail->addAddress('mngjvkakehashi@gmail.com');
          $mail->isHTML(true);
          $mail->Subject = '[MNG 人材開発株式会社] お問い合わせ';
          $mail->Body = $templateJa;

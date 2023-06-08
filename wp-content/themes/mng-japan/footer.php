@@ -37,7 +37,12 @@
                 },
 
                 success: function(response) {
-                    console.log(response);
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        html : "<p style='text-align: center'>お問い合わせ頂きまして誠にありがとうございます。 <br>内容確認次第、ご返信またはお電話にて回答させて頂きます。<br>受信当日～1営業日中に回答致しますので、何卒よろしくお願い申し上げます。</p>",
+                        showConfirmButton: true,
+                    })
                 },
                 error: function( jqXHR, textStatus, errorThrown ){
                     //Làm gì đó khi có lỗi xảy ra
