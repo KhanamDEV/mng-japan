@@ -86,37 +86,47 @@
                         </table>
                     </div>
                 </div>
+                <div class="flyers">
+                    <div class="block">
+                        <div class="rectangle position-relative">
+                            <span>所在地</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        〒350-1133 埼玉県川越市砂922－18　青嶋ハイツ201
+                    </div>
+                </div>
+                <div class="flyers">
+                    <div class="block">
+                        <div class="rectangle position-relative">
+                            <span>アクセス</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        東武東上線新河岸駅下車　徒歩3分
+                    </div>
+                </div>
+                <div class="flyers">
+                    <div class="block">
+                        <div class="rectangle position-relative">
+                            <span>電話番号</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        049-256-7139
+                    </div>
+                </div>
+                <div class="flyers">
+                    <div class="block">
+                        <div class="rectangle position-relative">
+                            <span>URL</span>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <a href="https://mngjapan.com/">https://mngjapan.com/</a>
+                    </div>
+                </div>
             </div>
-
-<!--            <div class="row mt-5">-->
-<!--                <div class="col-md-7">-->
-<!--                    <table class="table-info bg-white">-->
-<!--                        <tr>-->
-<!--                            <td class="pr-3">所在地</td>-->
-<!--                            <td>: 〒350-1133 埼玉県川越市砂922-18 ハイツ201</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td class="pr-3">アクセス</td>-->
-<!--                            <td>: 東武東上線新河岸駅徒歩3分</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td class="pr-3">電話番号</td>-->
-<!--                            <td>: 049-256-7139</td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td class="pr-3">URL</td>-->
-<!--                            <td>: <a href="http://mngjapan.com/">http://mngjapan.com/</a></td>-->
-<!--                        </tr>-->
-<!--                        <tr>-->
-<!--                            <td class="pr-3">代表メールアドレス・問い合わせ先</td>-->
-<!--                            <td>: admin@mng.jp</td>-->
-<!--                        </tr>-->
-<!--                    </table>-->
-<!--                </div>-->
-<!--                <div class="col-md-5">-->
-<!--                    <img style="height: 220px; width: auto" src="--><?php //asset('images/qrcode_mngjapan.com.png'); ?><!--" alt="">-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
     </section>
 

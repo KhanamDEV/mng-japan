@@ -51,8 +51,8 @@ h1,h2,h3,h4,h5{font-family: NotoSansBold}
 .table-info tr td:last-child{font-family: NotoSansBold; }
 .table-info tr td{padding: 10px 0}
 
-img.img-banner{max-height: 85vh; object-fit: cover}
-p.info{line-height: 35px}
+img.img-banner{max-height: 70vh; object-fit: cover; width: auto; margin: 0 auto; display: block}
+p.info{line-height: 40px; font-size: 20px}
 .font-bold{font-family: NotoSansBold}
 .item-quick-contact{display: flex; justify-content: space-around; width: 80%; margin:  0 auto}
 
@@ -90,7 +90,7 @@ header#header .mob{display: none}
  .group-block-content .block-content a:hover{transition: all .4s; color: white !important;}
 .group-block-content .block-content a:hover:before{transform: translateX(0)}
 
-section#company .group-flyers .flyers{display: flex; align-items: center}
+section#company .group-flyers .flyers{display: flex; align-items: center; font-size: 20px}
 section#company .group-flyers .flyers:nth-child(n+1){margin-bottom: 30px}
 section#company .group-flyers .block{max-width: 120px; display: block; width: 120px; margin-right: 100px}
 section#company .group-flyers .rectangle{background-color: #159DD9; display: flex; color: white; height: 60px; flex-direction: column; align-items: center; justify-content: center }
@@ -120,7 +120,7 @@ section#flow-diagram .flow .content p.info{margin-left: 50px; font-size: 18px; m
 
 section#qa .group-qa{margin-bottom: 120px}
 section#qa .group-qa .item-qa:nth-child(n+2){margin-top: 20px}
-section#qa .group-qa .item-qa p{text-align: center ; background-image: linear-gradient(to right,#159dd9ad, #159dd9ba  ) ; color: white; padding: 15px 0; border-radius: 15px; margin-bottom: 20px }
+section#qa .group-qa .item-qa p{text-align: center ; background-color: #80c396 ; padding: 15px 0; border-radius: 15px; margin-bottom: 20px }
 section#qa .group-qa .item-qa p.answer{padding:15px;text-align: left ;width: 95%; margin: 0 auto; background-color: #159dd994; background-image: none}
 section#qa .row .col-qa:first-child{padding-right: 30px}
 section#qa .row .col-qa:last-child{padding-left: 30px}
@@ -146,13 +146,13 @@ section#qa .group-qa .item-qa p.question.first:after{
     left: 20px;
     top: -25px;
     min-width: 300px;
-    background-color: #9ed6ef;
+    background-color: #EF84B2;
     padding: 7px 0 ;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    color: white;
+    color: #212529;
 }
 
 section#contact .form-contact{max-width: 650px; margin: 30px auto;}
@@ -161,7 +161,7 @@ section#contact .form-contact .btn{background-color: #159DD9; color: white; widt
 .name{position: relative; display: inline-block}
 .name::before{
     content: attr(data-subtitle);
-    font-size: 12px;
+    font-size: 16px;
     display: block;
     position: absolute;
     bottom: 100%;

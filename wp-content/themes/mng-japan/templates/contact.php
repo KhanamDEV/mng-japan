@@ -23,7 +23,7 @@
                 <br>
                 下記のお問合せ先まで、ご質問、ご相談、資料ご請求などお送りください
             </p>
-            <form action="" class="form-contact" id="form-contact">
+            <form action="" class="form-contact" id="form-contact" style="font-size: 20px">
                 <div class="form-group">
                     <label for="">法人様名※</label>
                     <input required id="company_name" type="text" class="form-control">
