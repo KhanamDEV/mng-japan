@@ -10,7 +10,7 @@
 <?php get_header(); ?>
 <main id="main">
     <section id="banner-home" style="">
-        <img style="object-fit: none" src="<?php asset('images/greeting.png'); ?>" class="img-banner" alt="">
+        <img  src="<?php asset('images/BG-boss.png'); ?>" class="img-banner p-banner" alt="">
     </section>
     <section id="greeting" class="padding-content bg-white">
         <div class="container">
@@ -45,7 +45,7 @@
                 何卒お引立の程 よろしくお願い申し上げます。
             </p>
             <div class="signature">
-                <img src="<?php asset('images/signature.png'); ?>" class="img-banner" alt="">
+                <img src="<?php asset('images/signature.png'); ?>"  alt="">
             </div>
         </div>
     </section>
