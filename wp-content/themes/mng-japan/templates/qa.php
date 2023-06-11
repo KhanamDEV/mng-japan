@@ -14,8 +14,8 @@
             <h2 class="title">よ く あ る ご 質 問</h2>
             <div class="line w-100"></div>
 
-            <div class="row mt-5">
-                <div class="col-md-12 col-qa">
+            <div class="row mt-5 text-center">
+                <div class="col-lg-8 col-xl-8 col-md-12 col-12 col-qa">
                     <div class="group-qa">
                         <div class="item-qa">
                             <p data-group="採用までの期間について" data-order="Q1" class="question first position-relative">求人をお願いしてから、採用まで期間はどのくらいかかりますか?</p>
@@ -43,8 +43,6 @@
                                 申し訳ございません。 その場合は返金に応じられません。<br> ( 状況に応じてご相談して頂きたく存じます )</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-12 col-qa">
                     <div class="group-qa">
                         <div class="item-qa">
                             <p data-group="求職者の能力について" data-order="Q4-1" class="question first position-relative">求職者の日本語能力はどのくらいですか?</p>
@@ -75,6 +73,7 @@
 
                     </div>
                 </div>
+
             </div>
             <p class="font-bold text-center mt-5 title-second" style="font-size: 22px">
                 その他、気になる点がございましたら、下記までお気軽にご相談下さい。

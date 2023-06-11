@@ -118,10 +118,11 @@ section#flow-diagram .flow .content .flow1{max-width: 700px; margin: 0 auto; dis
 section#flow-diagram .flow .content p{font-size: 26px; line-height: 45px}
 section#flow-diagram .flow .content p.info{margin-left: 50px; font-size: 18px; margin-top: 50px}
 
-section#qa .group-qa{margin-bottom: 120px}
+section#qa .group-qa{margin-bottom: 120px; text-align: center}
+section#qa .row .col-qa{margin:  0 auto}
 section#qa .group-qa .item-qa:nth-child(n+2){margin-top: 20px}
-section#qa .group-qa .item-qa p{text-align: center ; background-color: #80c396 ; padding: 20px 0; border-radius: 15px; margin-bottom: 20px }
-section#qa .group-qa .item-qa p.answer{padding:20px;text-align: left ;width: 95%; margin: 0 auto; background-color: #159dd994; background-image: none}
+section#qa .group-qa .item-qa p{text-align: center ; background-color: #80c396 ; padding: 20px 25px; border-radius: 15px; margin-bottom: 20px; width: fit-content }
+section#qa .group-qa .item-qa p.answer{padding:20px;text-align: left ; margin-left: 20px; background-color: #159dd994; background-image: none; width: fit-content}
 section#qa .row .col-qa:first-child{padding-right: 30px}
 section#qa .row .col-qa:last-child{padding-left: 30px}
 .p-banner{margin-top: 40px !important;}

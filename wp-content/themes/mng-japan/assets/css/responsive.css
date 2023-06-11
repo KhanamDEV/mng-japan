@@ -33,7 +33,7 @@
     section#flow-diagram .col-refund span{font-size: 10px}
     section#qa .row .col-qa{padding-right: 15px !important; padding-left: 15px !important;}
     section#qa .row{margin-left: 5px; margin-right: 5px}
-    section#qa .group-qa .item-qa p.question.first:after{min-width: 200px}
+    section#qa .group-qa .item-qa p.question.first:after{min-width: 250px}
     section#qa .group-qa{margin-bottom: 40px}
     .item-quick-contact{flex-direction: column; width: 100%; justify-content: center}
     .item-quick-contact .qr{text-align: center}
