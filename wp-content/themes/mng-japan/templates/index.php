@@ -10,7 +10,7 @@
 <?php get_header(); ?>
 <main id="main">
     <section id="banner-home">
-        <img src="<?php asset('images/home_page.png'); ?>" alt="" class="img-banner p-banner">
+        <img src="<?php asset('images/home_page.png'); ?>" alt="" class="img-banner">
     </section>
     <section id="recruitment" class="padding-content bg-white">
         <div class="container">
