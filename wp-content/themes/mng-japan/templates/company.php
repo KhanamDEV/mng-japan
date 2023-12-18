@@ -10,7 +10,7 @@
 <?php get_header(); ?>
 <main id="main">
     <section id="banner-home">
-        <img src="<?php asset('images/company.jpg'); ?>" class="img-banner p-banner" alt="">
+        <img src="<?php asset('images/0625.png'); ?>" class="img-banner p-banner" alt="">
     </section>
     <section id="company" class="padding-content bg-white">
         <div class="container">
@@ -57,12 +57,13 @@
                         2460万円
                     </div>
                 </div>
-                <div class="flyers">
-                    <div class="block">
-                        <div class="rectangle position-relative">
-                            <span>事業許可番号</span>
+                <div class="flyers" style="align-items: baseline">
+                        <div class="block">
+                            <div class="rectangle position-relative">
+                                <span>事業許可番号</span>
+                            </div>
                         </div>
-                    </div>
+
 
                     <div class="content">
                         <table class="table-info bg-white ">

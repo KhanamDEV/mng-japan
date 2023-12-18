@@ -26,10 +26,7 @@
     </section>
     <section id="recruitment" class="padding-content bg-white">
         <div class="container">
-            <h2 class="title" style="font-size: 40px; color: #E52138">人材開式会社</h2>
 
-            <div class="line"></div>
-            <h2 class="title" style="font-size: 40px">の強み</h2>
             <div class="group-block-content ">
                 <div class="row">
                     <div class="col-md-3">
