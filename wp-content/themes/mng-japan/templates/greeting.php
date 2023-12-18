@@ -17,7 +17,7 @@
             <h2 class="title">ご挨拶</h2>
             <div class="line w-100"></div>
             <p class="info">
-                 皆様へ
+                皆様へ
                 <br>
                 <br>
                 <span style="opacity: 0">私</span> 私は2013年に、ベトナムから留学生として日本にやってまいりました。

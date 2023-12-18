@@ -34,7 +34,7 @@
                         </div>
                     </div>
                     <div class="content">
-                        有料證業紹介事業 / 人材派遣事業 / 日本語教育事業 事業内容
+                        人材派遣 ／ 登録支援機関 ／ 有料職業紹介 ／ 各種請負
                     </div>
                 </div>
                 <div class="flyers">
@@ -54,36 +54,54 @@
                         </div>
                     </div>
                     <div class="content">
-                        500万円
+                        2460万円
                     </div>
                 </div>
-                <div class="flyers mb-0">
+                <div class="flyers">
+                    <div class="block">
+                        <div class="rectangle position-relative">
+                            <span>事業許可番号</span>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <table class="table-info bg-white ">
+
+                            <tr>
+                                <td class="pr-3">・人材派遣事業 ：</td>
+                                <td>派11-301688 （認可日 2023年12月1日）</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-3">・登録支援機関 ：</td>
+                                <td>23登-009227 （認可日 2023年12月1日）</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-3">・有料職業紹介事業 ：</td>
+                                <td>11ーユー301120 （認可日 2023年5月1日）</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-3">・派遣元責任者講習受講証明 ：</td>
+                                <td>グウェン．チュン．クエット （認可日 2022年4月13日）</td>
+                            </tr>
+                            <tr>
+                                <td class="pr-3">・派遣元責任者講習受講証明 ：</td>
+                                <td>遠藤　直美 （認可日 2023年11月22日）</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+
+                <div class="flyers">
                     <div class="block">
                         <div class="rectangle position-relative">
                             <span>代 表 者</span>
                         </div>
                     </div>
                     <div class="content">
-                        代表者 代表取締役社長 <div style="display: inline">
+                        代表取締役社長 <div style="display: inline">
                             <span class="name" data-subtitle="グウェン" >NGUYEN</span> <span class="name" data-subtitle="チュン">TRUNG</span> <span class="name" data-subtitle="クエット">QUYET</span>
                         </div>
-                    </div>
-                </div>
-                <div class="flyers">
-                    <div class="block">
-
-                    </div>
-                    <div class="content">
-                        <table class="table-info bg-white ">
-                            <tr>
-                                <td class="pr-3">厚生労働省許可番号</td>
-                                <td>: 11-ユー3011200</td>
-                            </tr>
-                            <tr>
-                                <td class="pr-3">許可年月日</td>
-                                <td>: 2023年5月1日</td>
-                            </tr>
-                        </table>
                     </div>
                 </div>
                 <div class="flyers">
@@ -96,16 +114,7 @@
                         〒350-1133 埼玉県川越市砂922－18　青嶋ハイツ201
                     </div>
                 </div>
-                <div class="flyers">
-                    <div class="block">
-                        <div class="rectangle position-relative">
-                            <span>アクセス</span>
-                        </div>
-                    </div>
-                    <div class="content">
-                        東武東上線新河岸駅下車　徒歩3分
-                    </div>
-                </div>
+
                 <div class="flyers">
                     <div class="block">
                         <div class="rectangle position-relative">
@@ -113,7 +122,7 @@
                         </div>
                     </div>
                     <div class="content">
-                        049-256-7139
+                        （代表） 049-256-7139
                     </div>
                 </div>
                 <div class="flyers">
@@ -123,7 +132,7 @@
                         </div>
                     </div>
                     <div class="content">
-                        <a href="https://mngjapan.com/">https://mngjapan.com/</a>
+                        <a href="https://mngjapan.co.jp/">https://mngjapan.co.jp/</a>
                     </div>
                 </div>
             </div>

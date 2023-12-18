@@ -71,7 +71,9 @@ header#header .right .menu-header li a:hover{color: #159DD9; font-family: NotoSa
 header#header .right .menu-header li:nth-child(n+2){margin-left: 20px}
 header#header .mob{display: none}
 
-
+.group-block-content .item-content{ width: 20%}
+.group-block-content .block-content{background-color: #e62b3926; text-align: center; border-radius: 10px; height: 100%}
+.group-block-content .block-content .sub-content{padding: 25px}
  .group-block-content .block-content a{ position: relative; overflow: hidden; text-align: center; background-color: #159DD9; color: white; height: 120px; font-size: 22px; display: flex; align-items: center; justify-content: center; flex-direction: column; border-radius: 10px}
 .group-block-content .block-content a:before{
     content: '';
@@ -118,13 +120,31 @@ section#flow-diagram .flow .content .flow1{max-width: 700px; margin: 0 auto; dis
 section#flow-diagram .flow .content p{font-size: 26px; line-height: 45px}
 section#flow-diagram .flow .content p.info{margin-left: 50px; font-size: 18px; margin-top: 50px}
 
-section#qa .group-qa{margin-bottom: 120px; text-align: center}
+section#flow-diagram .content-item{margin-bottom: 100px}
+section#flow-diagram .content-item:last-child{margin-bottom: 0}
+section#flow-diagram .content-item img{max-width: 320px; margin: 0 auto; display: block; max-height: 320px}
+section#flow-diagram .content-item h2{background-color: #159DD9; min-width: 320px ; color: white; display: inline-block; margin: 30px auto; padding: 15px 20px }
+section#flow-diagram .content-item p{ text-align: center}
+section#qa .group-qa{margin-bottom: 80px; text-align: center}
 section#qa .row .col-qa{margin:  0 auto}
-section#qa .group-qa .item-qa:nth-child(n+2){margin-top: 20px}
+section#qa .group-qa .item-qa:nth-child(n+2){margin-top: 100px}
+section#qa .group-qa .item-qa img{max-width: 120px}
+section#qa .group-qa .item-qa > div{display: flex; align-items: center}
 section#qa .group-qa .item-qa p{text-align: center ; background-color: #80c396 ; padding: 20px 25px; border-radius: 15px; margin-bottom: 20px; width: fit-content }
 section#qa .group-qa .item-qa p.answer{padding:20px;text-align: left ; margin-left: 20px; background-color: #159dd994; background-image: none; width: fit-content}
 section#qa .row .col-qa:first-child{padding-right: 30px}
 section#qa .row .col-qa:last-child{padding-left: 30px}
+section#qa .group-qa .item-qa .reverse{flex-direction: row-reverse}
+section#qa .group-qa .item-qa .question-user{margin-right: 30px}
+section#qa .group-qa .item-qa .reverse .question-user{margin-left: 30px}
+
+/*section#qa .group-qa .item-qa .question-user.left{position: absolute; top: -20px; left: -150px}*/
+/*section#qa .group-qa .item-qa .answer-user.right{position: absolute; top: -80px; right: -40px}*/
+
+/*section#qa .group-qa .item-qa .question-user.right{position: absolute; top: -110px; right: -30px}*/
+/*section#qa .group-qa .item-qa .answer-user.left{position: absolute; bottom: -100px; left: -150px}*/
+
+
 .p-banner{margin-top: 40px !important;}
 section#qa .group-qa .item-qa p.question:before{
     content: attr(data-order);

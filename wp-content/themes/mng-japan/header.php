@@ -33,7 +33,6 @@
         </div>
         <div class="right">
             <nav id="nav-header" class="nav-desk">
-
             <?php
                 wp_nav_menu(array(
                     'theme_location' => 'header-nav',
